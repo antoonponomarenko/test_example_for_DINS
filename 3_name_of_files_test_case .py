@@ -8,7 +8,7 @@ list_files_names = list(filter(lambda name: name[-4:]== '.zip', ftp.nlst()))
 
 
 
-class Coonection_test_case(unittest.TestCase):
+class Name_of_files_test_case(unittest.TestCase):
     def test_connection(self):
         actual_result = sorted(list_files_names)
         expected_result = sorted([

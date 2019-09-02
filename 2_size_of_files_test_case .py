@@ -12,7 +12,7 @@ for file in list_files_names:
     list_of_size.append(ftp.size(file))
 
 
-class Coonection_test_case(unittest.TestCase):
+class Size_of_files_test_case(unittest.TestCase):
     def test_connection(self):
         actual_result = sorted(list_of_size)
         expected_result = sorted([

@@ -34,7 +34,7 @@ if name_of_test_file not in list_files_names:
     else:
         result = True
 
-class Deleted_files_test_case(unittest.TestCase):
+class Push_ftp_files_test_case(unittest.TestCase):
     def test_connection(self):
         actual_result = result
         expected_result = True
